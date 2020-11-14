@@ -1,37 +1,43 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="Part4_GameCSS.css">
+</head>
 
-You can use the [editor on GitHub](https://github.com/cmdavidson546/TicTacToe-Javascript/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+<body>
+<div class="container">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+  <div class="jumbotron">
+    <h1>Welcome to Tic Tac Toe!</h1>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <p><a id='b' class="btn btn-primary btn-lg" href="#" role="button">Restart!</a></p>
+  </div>
+  <table align='center'>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
 
-```markdown
-Syntax highlighted code block
+  </table>
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+  <script type="text/javascript" src='Part4_Game.js'></script>
+</div>
+</body>
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cmdavidson546/TicTacToe-Javascript/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</html>
